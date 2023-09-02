@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head> 
+    <meta charset="UTF-8" /> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Rolling Analog Clock</title>
+    <link rel="shortcut icon" type="x-icon" href="img/icons8-clock-500.png"> 
+    <link rel="stylesheet" href="style.css" /> 
+    <script defer src="script.js"></script> 
+    <style>
+      
+      /* CSS for the sticky footer */
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+  
+      .icon-large.icon-clock {
+        flex-grow: 1;
+      }
+  
+      /* Footer styles */
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+
+  </head> 
+  <body> 
+    <div class="icon-large icon-clock"> 
+      <div class="clock"> 
+        <ol> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+          <li></li> 
+        </ol> 
+        <div id="hour"></div> 
+        <div id="min"></div> 
+        <div id="sec"></div> 
+      </div> 
+    </div> 
+
+     <!-- Footer Section -->
+     <footer>
+      <div class="text">
+        <span> Developed by <a href="https://greatnessuko.netlify.app" target="_blank">Greatness</a> | &#169; 2023 Aveela Development. All Rights Reserved.</span>
+      </div>
+    </footer>
+
+  </body> 
+</html>
